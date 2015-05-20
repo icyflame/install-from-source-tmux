@@ -17,4 +17,4 @@ cd tmux-2.0
 make
 sudo make install
 
-echo "Installed tmux 2.0! Type tmux, enter and start multiplexing!"
+echo "Installed tmux 2.0! Type tmux, press enter and start multiplexing!"
