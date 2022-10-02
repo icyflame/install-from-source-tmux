@@ -1,0 +1,9 @@
+#+TITLE: Installing from source: tmux 3.3a
+
+On Ubuntu 22.04 LTS, tmux 3.3a has 2 dependencies which can be installed using apt-get:
+
+1. [[https://packages.ubuntu.com/jammy/libncurses-dev][libncurses-dev]]
+2. [[https://packages.ubuntu.com/jammy/libevent-2.1-7][libevent-2.1-7]]
+
+After installing these two pacakges, tmux 3.3a can be installed by cloning [[https://github.com/tmux/tmux/releases/tag/3.3a][the tmux repository]],
+running =autogen.sh=, running =./configure=, and then =make= and =sudo make install=.
